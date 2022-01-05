@@ -1,3 +1,9 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   border-top: 1px solid var(--border);
   font-size: var(--text-sm);
@@ -9,9 +15,14 @@
 .container a {
   border-bottom: 1.5px solid transparent;
   font-weight: var(--medium);
+  cursor: pointer;
 }
 
 .container a:hover {
   border-bottom-color: var(--primary);
   color: var(--primary);
+}
+
+.contact {
+  text-align: left;
 }
